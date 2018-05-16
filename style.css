@@ -92,20 +92,41 @@ nav{
     padding-bottom: 10px;
 }
 
-.div2 ul{
+.div2{
+    height: 500px;
+    background-color: burlywood;    
+}
+
+.div2 h3 , p{
+    font-size: 23pt;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Kavivanar', cursive;
+}
+
+.div3 ul{
     list-style-type: none;
     text-decoration: none;
-    height: 125px;
+    height: 64px;
 
     display: flex;
     justify-content: space-around;
     color: red;
-    background-color: steelblue;
+    background-color: white;
 }
 
-.div2 ul li{
-    padding-top: 42.5px;
+.div3 ul li{
     font-size: 24pt;
     text-align: center;
     justify-content: center;
+}
+
+.img1{
+    height: 64px;
+    width: 140px;
+}
+
+.img2{
+    width: 64px;
+    height: 64px;
 }
