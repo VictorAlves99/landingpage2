@@ -14,7 +14,7 @@ header{
 header img{
     width:32px;
     height: 28px;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-top: 6px;
     padding-bottom: 4px;
 }
@@ -45,6 +45,7 @@ nav a{
     color: #FFFFFF;
     padding-top: 4px;
     padding-bottom: 4px;
+    transition: 1.2s;
 }
 
 nav{
@@ -93,12 +94,14 @@ nav{
 }
 
 .div2{
-    height: 500px;
-    background-color: burlywood;    
+    height: 400px;
+    background-color: rgb(204, 204, 204);    
 }
 
 .div2 h3 , p{
     font-size: 23pt;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
     text-align: center;
     padding-bottom: 10px;
     font-family: 'Kavivanar', cursive;
@@ -119,6 +122,7 @@ nav{
     font-size: 24pt;
     text-align: center;
     justify-content: center;
+    padding-top: 5px;
 }
 
 .img1{
